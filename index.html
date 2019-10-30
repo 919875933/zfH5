@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <title>珠峰H5</title>
+</head>
+
+<body>
+    <script>
+        function refreshRem() {
+            var desW = 750,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
+    <header>
+        <h1 class="logo">
+            <a href=""></a>
+        </h1>
+        <div class="right">
+            <span class="right-item"></span>
+            <span class="right-item"></span>
+            <span class="right-item"></span>
+        </div>
+    </header>
+    <!-- 轮播图 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+            </div>
+            <div class="swiper-slide">
+
+            </div>
+            <div class="swiper-slide">
+
+            </div>
+            <div class="swiper-slide">
+
+            </div>
+        </div>
+        <div class="swiper-pagination">
+
+        </div>
+    </div>
+
+    <!-- 主体 -->
+    <main>
+        <div class="top">
+            <img src="imgs/book.png" alt="">
+            <h2>全部课程</h2>
+        </div>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+        <section>
+            <img src="imgs/banner2.png" alt="">
+            <h3>Vue.js从理论精讲到项目实战课程</h3>
+            <p>￥5000.00</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-item">
+            <div class="footimg"></div>
+            <h5>首页</h5>
+        </div>
+        <div class="footer-item">
+            <div class="footer-item">
+                <div class="footimg footimg1"></div>
+                <h5>我的课程</h5>
+            </div>
+        </div>
+        <div class="footer-item">
+            <div class="footer-item">
+                <div class="footimg footimg2"></div>
+                <h5>个人中心</h5>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            }
+        })        
+    </script>
+</body>
+
+</html>

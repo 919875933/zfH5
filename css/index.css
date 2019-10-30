@@ -1,0 +1,102 @@
+header{
+    width: 100%;
+    height: 1.12rem;
+    background-color: #2A2A2A;
+    overflow: hidden;
+}
+.logo{
+    width: 2.1rem;
+    height: 0.62rem;
+    background: url(../imgs/Layer-15.png) no-repeat ;
+    background-size: cover;
+    margin-top: 0.23rem;
+    margin-left: 0.16rem;
+    float: left;
+}
+.right{
+    width: 0.36rem;
+    margin-right: 0.23rem;
+    margin-top: 0.40rem;
+    float: right;
+}
+.right-item{
+    display: block;
+    width: .36rem;
+    height: .04rem;
+    background-color: #fff;
+    margin-bottom:.06rem;
+    border-radius: .03rem;
+}
+.swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 3.41rem;
+    background:url(../imgs/banner1.png) no-repeat;
+    background-size: cover;
+}
+.swiper-slide:nth-child(2){
+    background-image: url(../imgs/banner2.png);
+}
+.swiper-slide:nth-child(3){
+    background-image: url(../imgs/banner3.png);
+}
+.swiper-slide:nth-child(4){
+    background-image: url(../imgs/banner4.png);
+}
+.swiper-pagination-bullet-active{
+    background: #fff !important;
+}
+/* .swiper-container{
+    --swiper-theme-color: #fff;
+  } */
+main{
+    padding: 0 .2rem;
+    background-color: #f8f8f8;
+    padding-bottom: .5rem;
+}
+section{
+    box-shadow:0 .05rem .06rem rgba(178,178,178,0.75);
+    border-radius:0.05rem 0.05rem 0.05rem 0.05rem;
+    margin-top: .3rem;
+    background-color: #fff;
+}
+section img{
+    width: 100%;
+}
+h3{
+    font-size:.28rem;
+    font-weight:400;
+    color:rgba(119,119,119,1);
+    line-height:.24rem;
+    text-align: center;
+    margin-top: .33rem;
+}
+p{
+    font-size:.28rem;
+    font-weight:400;
+    color:rgba(237,58,58,1);
+    line-height:.24rem;
+    text-align: center;
+    padding: .33rem 0;
+}
+.top{
+    display: flex;
+    padding-top: .3rem;
+}
+.top img{
+    width:.29rem;
+    height:.35rem;
+    margin-right: .1rem;
+}
+.top h2{
+    font-size:.26rem;
+    font-weight:400;
+    color:rgba(76,75,75,1);
+    line-height:.14rem;
+    padding-top: .1rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 1.07rem;
+    background-color: #fff;
+}
